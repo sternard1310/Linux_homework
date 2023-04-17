@@ -1,0 +1,90 @@
+   0 whoami
+   1 pwd
+   2 cd ..
+   3 ls
+   4 ls --help
+   5 ls -a
+   6 ls -l
+   7 ls -la
+   8 ls -1la
+   9 ls home
+  10 cd home
+  11 cd 
+  12 cd ..
+  13 cd home/
+  14 mkdir
+  15 mkdir user1
+  16 ls
+  17 cd user1/
+  18 mkdir task1
+  19 ls 
+  20 cd task1
+  21 touch file1.txt
+  22 ls
+  23 cd ..
+  24 cd 
+  25 cd home
+  26 cd /home
+  27 tree
+  28 ls -R
+  29 cd /
+  30 tree
+  31 clear
+  32 cd home
+  33 ls
+  34 mkdir user2
+  35 ls
+  36 cd user2
+  37 mkdir task2
+  38 ls
+  39 cd task2
+  40 touch file2.txt
+  41 ls
+  42 cd ..
+  43 tree
+  44 ls
+  45 ls -R
+  46 ls /
+  47 cd /opt/
+  48 ls
+  49 ls /home
+  50 mkdir /home/user3
+  51 ls /home
+  52 mkdir /home/user3/task3/
+  53 touch /home/user3/task3/task3.txt
+  54 ls /home
+  55 tree /home
+  56 mkdir /home/user4/task4
+  57 mkdir -p/home/user4/task4
+  58 mkdir -p /home/user4/task4
+  59 tree /home
+  60 ls /home/user1
+  61 tree /home/user1
+  62 touch /home/user4/task4/file4.txt
+  63 tree / home
+  64 tree /home
+  65 cp /home/user1/task1/file1.txt /opt/file1.txt
+  66 ls
+  67 cp /home/user2/tas21/file2.txt /opt/newfile2.txt
+  68 cp /home/user2/task2/file2.txt /opt/newfile2.txt
+  69 ls
+  70 cp /home/user3/ /opt/
+  71 cp --help
+  72 cp -r /home/user3/ /opt/
+  73 ls
+  74 claer
+  75 clear
+  76 tree /home
+  77 mv /home/user4/task4/file4.txt /opt/newfile4.txt
+  78 ls
+  79 mv --help
+  80 mv /home/user3/ /opt/newuser3
+  81 ls
+  82 ls -1
+  83 clear
+  84 mv file1.txt  ivan.txt
+  85 ls
+  86 rename newfile4.txt 111.txt
+  87 cd
+  88 history
+  89 history > history_first_commands_17_04.txt
