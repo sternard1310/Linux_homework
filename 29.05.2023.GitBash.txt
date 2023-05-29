@@ -1,0 +1,18 @@
+
+#!/bin/bash
+
+        for file in {1..10}
+        do
+        echo -n $file
+        date +'%H:%M:%S' > /opt/040423_evening/sternard/file10.txt
+        cat file10.txt
+        done
+
+# у меня выводит в начале "h", не вижу от куда
+echo “it works!“
+
+
+crontab: 
+*/15 * * * * /opt/040423_evening/jenyaa/taskJENYAA.sh
+*/15* * * * /opt/040423_evening/sternard/tasksternard.sh
+
